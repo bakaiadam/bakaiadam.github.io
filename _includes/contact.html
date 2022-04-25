@@ -13,9 +13,15 @@
     </li>
     {% endif %}
 
+    {% if sidebar.location %}
+    <li class="phone"><i class="fas fa-passport"></i>
+      {{ sidebar.location }}
+    </li>
+    {% endif %}
+
     {% if sidebar.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.citizenship }}</a>
+      {{ sidebar.citizenship }}
     </li>
     {% endif %}
 
@@ -49,6 +55,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.hackerrank %}
+    <li class="hackerrank"><i class="fa-brands fa-hackerrank"></i>
+      <a href="http://hackerrank.com/{{ sidebar.hackerrank }}" target="_blank">{{ sidebar.hackerrank }}</a>
+    </li>
+    {% endif %}
+    
     {% if sidebar.gitlab %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
       <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>

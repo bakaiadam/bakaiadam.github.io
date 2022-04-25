@@ -21,6 +21,9 @@
 
       <div class="company">{{ experience.company }}</div>
 
+    {% if experience.image %}
+    <img class="company_pic"  src="{{ experience.image }}" />
+    {% endif %}    
     </div><!--//meta-->
 
     {% if experience.details %}

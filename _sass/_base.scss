@@ -20,6 +20,7 @@ h6 {
 
 a {
   color: darken($theme-color, 15%);
+  text-decoration: underline;
   &:hover {
     text-decoration: underline;
     color: darken($theme-color, 30%);
@@ -75,6 +76,14 @@ p {
     margin-bottom: 15px;
   }
 
+  .company_pic {
+    //used for profile image
+    width: 10px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  
   .avatar {
     //used for profile image
     max-width: 100px;

@@ -3,191 +3,158 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Ádám Bakai
+    tagline: Software Engineer
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: bakaiadam@gmail.com
+    citizenship: Hungarian
+    location: Veszprém, Hungary( EU member)
+    website: bakaiadam.github.io #do not add http://
+    linkedin: bakaiadam
+    github: bakaiadam
+    hackerrank: bakaiadam
+    codeforces: bakaiadam
+    pdf: BakaiAdam_2022_04_25.pdf
 
     languages:
       - idiom: English
+        level: Professional working proficiency
+
+      - idiom: Hungarian
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Algorithms
         link:
 
-      - item: Snowboarding
+      - item: Machine learning
         link:
 
-      - item: Cooking
+      - item: Functional programming
         link:
+
+    hobbies:
+      - item: Playing chess
+        link: https://lichess.org/@/bakaiadam
+
+      - item: Playing on piano
+        link:
+
+      - item: Board games
+        link:
+
+      - item: Home software projects
+        link: projects.html
+
 
 career-profile:
     title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+    summary: "
+      Looking for new challenges in the field of IT as a member of a
+      competent team. I’m eager to learn new programming languages,
+      data science, machine learning and contribute to open source
+projects. I'm generally open to relocation after a succesful probation period."
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: BSc in Computer Science
+      university: University of Pannonia(Veszprém)
+      time: 2008 - 2011
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer
+      time: 2017 - Present
+      company: BalaBit IT Security (acquired by One Identity in 2018)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Main tehcnology used are Qt,C++,QML,Python.
+        Components developed by my team:
+          - Library that extracts data from remote access protocol bytestreams(SSH,RDP,VNC).
+          - Desktop application that use the library to visualize the data.
+          - distributed service that indexes data and send it through message queue.
+    - role: Software Test Engineer
+      time: 2014 - 2017
+      company: CAE Healthcare
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
+        My job was to make improvements in the installer system and server
+        services(in bash and perl), execute manual and automated tests in browser.
+    - role: Software Test Engineer
       time: 2012 - 2014
-      company: Amazon, London
+      company: Continental Automotive Hungary Kft.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        Test ECU software in a hardware in the loop enviroment.
+        I used C and C++ for the actual test code, Java for supporting code(test input
+        generator, documentation generator).
+    - role: Software Engineer
+      time: 2011 - 2012
+      company: BalaBit IT Security
+      details: |
+        Maintaining legacy C++ code, developing new code from scratch that replaces it.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+        
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: C++
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Git
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Qt
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Linux
+        level: 80%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Test automation
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Python
+        level: 50%
+        
+        
+projects:
+    title: Projects
+    intro: >
+      Over the years I created some projects for myself. Their code quality is not the best because the main objective was to make them work with as little effort as possible. But I think these can be still
+      good conversation starters and show my interests.
+    assignments:
+
+      - title: Home autmation project
+        tagline: >
+          This project uses python to add features to Shelly smart bulbs and switches. For example turn down when I leave home (It is detected by not being able to reach my phone on WIFI).
+
+      - title: Music player
+        tagline: >
+          This project uses python and youtube-dl to make an ad-free easy to use web interface that can be both used in browser and feed videos to kodi media application.
+
+    
+      - title: WebRTC recorder and player
+        tagline: >
+          This project uses WebRTC technology to record audio from phone, and play it back when it detects silence. The goal was to make some kind of diary that helps organize your thoughts as well. Later it
+          was connected with a STT module,too(Silero STT). Technology used: javascript and python.
+
+      - title: Slideshow generator
+        tagline: "I created an application in C++ with OpenCV that creates music videos from images where the fade effect uses pattern matching."
+
+      - title: Panoramic image generator
+        tagline: "I used the pre-exisiting panoramic image generation applications and made them a little better by trying to detect the clusters of images that make one big panoramic image and run panoramic image generation with multiple different parameters."
+
+      - title: Cat-dog morph
+        link: "https://www.youtube.com/watch?v=TqhTSnTUnng"
+        tagline: >
+          I wantted to create convincing cat to dog morph, but all my very original attempts failed, so I used this pre-trained model. Technology used: python, tensorflow.
+
+      - title: Phone number sudoku
+        link: "https://bakaiadamphonenumber.herokuapp.com/"
+        tagline: >
+          I wantted to create some kind of puzzle for recruiters to get my phone number. The sudoku is generated from a pre-set seed. Tehcnology used: javascript.
+
+      - title: Ball bouncing demo
+        link: "https://www.youtube.com/watch?v=rqMITldk3DE"
+        tagline: "I created sphere collision calculations  in C++ and renderend it in POVRay."
+
