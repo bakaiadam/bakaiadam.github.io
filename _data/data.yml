@@ -13,7 +13,7 @@ sidebar:
     # Sidebar links
     email: bakaiadam@gmail.com
     citizenship: Hungarian
-    location: Veszprém, Hungary( EU member)
+    location: Veszprém, Hungary (EU member state)
     website: bakaiadam.github.io #do not add http://
     linkedin: bakaiadam
     github: bakaiadam
@@ -42,7 +42,7 @@ sidebar:
       - item: Playing chess
         link: https://lichess.org/@/bakaiadam
 
-      - item: Playing on piano
+      - item: Playing the piano
         link:
 
       - item: Board games
@@ -58,10 +58,10 @@ career-profile:
       Looking for new challenges in the field of IT as a member of a
       competent team. I’m eager to learn new programming languages,
       data science, machine learning and contribute to open source
-projects. I'm generally open to relocation after a succesful probation period."
+projects. I'm generally open to relocation after a successful probation period."
 education:
-    - degree: BSc in Computer Science
-      university: University of Pannonia(Veszprém)
+    - degree: B.Sc. in Computer Science
+      university: University of Pannonia (Veszprém)
       time: 2008 - 2011
 
 experiences:
@@ -69,23 +69,23 @@ experiences:
       time: 2017 - Present
       company: BalaBit IT Security (acquired by One Identity in 2018)
       details: |
-        Main tehcnology used are Qt,C++,QML,Python.
+        Main technologies used are Qt, C++, QML, Python.
         Components developed by my team:
-          - Library that extracts data from remote access protocol bytestreams(SSH,RDP,VNC).
-          - Desktop application that use the library to visualize the data.
-          - distributed service that indexes data and send it through message queue.
+          - Library that extracts data from remote access protocol bytestreams (SSH,RDP,VNC).
+          - Desktop application that uses the library to visualize the data.
+          - Distributed service that indexes data and sends it through message queue.
     - role: Software Test Engineer
       time: 2014 - 2017
       company: CAE Healthcare
       details: |
         My job was to make improvements in the installer system and server
-        services(in bash and perl), execute manual and automated tests in browser.
+        services (in bash and perl), execute manual and automated tests in browser.
     - role: Software Test Engineer
       time: 2012 - 2014
       company: Continental Automotive Hungary Kft.
       details: |
-        Test ECU software in a hardware in the loop enviroment.
-        I used C and C++ for the actual test code, Java for supporting code(test input
+        Test ECU software in a hardware in the loop environment.
+        I used C and C++ for the actual test code, Java for supporting code (test input
         generator, documentation generator).
     - role: Software Engineer
       time: 2011 - 2012
@@ -124,37 +124,37 @@ projects:
       good conversation starters and show my interests.
     assignments:
 
-      - title: Home autmation project
+      - title: Home automation project
         tagline: >
-          This project uses python to add features to Shelly smart bulbs and switches. For example turn down when I leave home (It is detected by not being able to reach my phone on WIFI).
+          This project uses python to add features to Shelly smart bulbs and switches. For example, turn down when I leave home (It is detected by not being able to reach my phone on Wi-Fi).
 
       - title: Music player
         tagline: >
-          This project uses python and youtube-dl to make an ad-free easy to use web interface that can be both used in browser and feed videos to kodi media application.
+          This project uses python and youtube-dl to make an ad-free, easy to use web interface that can be both used in browser and feed videos to kodi media application.
 
     
       - title: WebRTC recorder and player
         tagline: >
-          This project uses WebRTC technology to record audio from phone, and play it back when it detects silence. The goal was to make some kind of diary that helps organize your thoughts as well. Later it
-          was connected with a STT module,too(Silero STT). Technology used: javascript and python.
+          This project uses WebRTC technology to record audio from a phone, and play it back when it detects silence. The goal was to make some kind of diary that helps organize your thoughts as well. Later it
+          was connected with a STT module, too (Silero STT). Technology used: javascript and python.
 
       - title: Slideshow generator
         tagline: "I created an application in C++ with OpenCV that creates music videos from images where the fade effect uses pattern matching."
 
       - title: Panoramic image generator
-        tagline: "I used the pre-exisiting panoramic image generation applications and made them a little better by trying to detect the clusters of images that make one big panoramic image and run panoramic image generation with multiple different parameters."
+        tagline: "I used the pre-existing panoramic image generation applications and made them a little better by trying to detect the clusters of images that make one big panoramic image and run panoramic image generation with multiple different parameters."
 
       - title: Cat-dog morph
         link: "https://www.youtube.com/watch?v=TqhTSnTUnng"
         tagline: >
-          I wantted to create convincing cat to dog morph, but all my very original attempts failed, so I used this pre-trained model. Technology used: python, tensorflow.
+          I wanted to create a convincing cat to dog morph, but all my very original attempts failed, so I used this pre-trained model. Technology used: python, tensorflow.
 
       - title: Phone number sudoku
         link: "https://bakaiadamphonenumber.herokuapp.com/"
         tagline: >
-          I wantted to create some kind of puzzle for recruiters to get my phone number. The sudoku is generated from a pre-set seed. Tehcnology used: javascript.
+          I wanted to create some kind of puzzle for recruiters to get my phone number. The sudoku is generated from a pre-set seed. Technology used: javascript.
 
       - title: Ball bouncing demo
         link: "https://www.youtube.com/watch?v=rqMITldk3DE"
-        tagline: "I created sphere collision calculations  in C++ and renderend it in POVRay."
+        tagline: "I created sphere collision calculations  in C++ and rendered it in POVRay."
 
