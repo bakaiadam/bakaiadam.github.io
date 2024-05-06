@@ -56,10 +56,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: "
-      Looking for new challenges in the field of IT as a member of a
-      competent team. I’m eager to learn new programming languages,
-      data science, machine learning and contribute to open source
-projects. I'm generally open to relocation after a successful probation period."
+      "
 education:
     - degree: B.Sc. in Computer Science
       university: University of Pannonia (Veszprém)
@@ -67,7 +64,13 @@ education:
 
 experiences:
     - role: Software Engineer
-      time: 2017 - Present
+      time: 2022 - 
+      company: Cloudera
+      details: |
+        Member of the Apache Kudu development team.
+        Apache Kudu is a distributed open source column-oriented data store engine, written in C++. 
+    - role: Software Engineer
+      time: 2017 - 2022
       company: BalaBit IT Security (acquired by One Identity in 2018)
       details: |
         Main technologies used are Qt, C++, QML, Python.
