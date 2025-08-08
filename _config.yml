@@ -4,6 +4,9 @@
 title: Ádám Bakai Resume
 url: 'http://webjeda.com'
 
+#plugins:
+#  - jekyll-include-markdown
+  
 #change it according to your repository name
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
@@ -34,6 +37,7 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 0.0.0.0
 safe: false
+
 
 kramdown:
   input: Kramdown

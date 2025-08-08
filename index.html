@@ -3,6 +3,16 @@ layout: default
 ---
 
 
+
+
+{% capture md %}
+  {% include intro.md %}
+{% endcapture %}
+
+{{ md | markdownify }}
+
+
+
 {% include career-profile.html %}
 
 {% unless site.data.data.sidebar.education %}
