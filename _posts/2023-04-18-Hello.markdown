@@ -2,6 +2,10 @@
 
 Úgy döntöttem, hogy indítok egy saját blogot, amit teljesen a sajátomnak érezhetek. Az elsődleges tárolás a saját gépemen történik, és csak felteszem egy megfelelő szolgáltató szerverére, és a formátum szabványosított, így nem vagyok szolgáltatóhoz láncolva. 
 
+Update: 2025-ben újra beindítottam a local dev env-et, és most már máshogy csináltam:
+  bundle install
+  bundle exec jekyll serve
+
 Viszont out of the box nem működött a jekyll, ezért ezt a parancsot kell használni:
 
     docker pull jekyll/jekyll
@@ -21,3 +25,5 @@ Ez megnyit egy új terminált, amiben ki lehet adni a parancsot:
 
 Ezután a böngészőből el lehet érni a megfelelő porton a dinamikusan update-elődő weboldalt.
 Egyébként a terv az, hogy itt személyes gondolataimat fogom megosztani. Csak olyanokat, amiket bárkivel megosztanék. Talán beindul, talán nem. Meglátjuk.
+
+
